@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Folder}",
+            "name": "Debug Cosmic Defender",
+            "program": "${workspaceFolder:Folder}/.build/debug/Cosmic Defender",
+            "preLaunchTask": "swift: Build Debug Cosmic Defender"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Folder}",
+            "name": "Release Cosmic Defender",
+            "program": "${workspaceFolder:Folder}/.build/release/Cosmic Defender",
+            "preLaunchTask": "swift: Build Release Cosmic Defender"
+        }
+    ]
+}
